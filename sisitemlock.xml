@@ -7,11 +7,12 @@
 	<authorEmail>info@sergioiglesias.net</authorEmail>
 	<authorUrl>https://sergioiglesias.net</authorUrl>
 	<license>GNU General Public License v2.0</license>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<description>PLG_SYSTEM_SISITEMLOCK_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="sisitemlock">sisitemlock.php</filename>
 		<filename>index.html</filename>
+		<folder>forms</folder>
 	</files>
 	<languages folder="language">
 		<language tag="en-GB">en-GB/en-GB.plg_system_sisitemlock.ini</language>
