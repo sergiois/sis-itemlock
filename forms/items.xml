@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<field
+		name="hash_sislock"
+		type="text"
+		description="PLG_SYSTEM_SISITEMLOCK_HASH_FIELD_DESC"
+		label="PLG_SYSTEM_SISITEMLOCK_HASH_FIELD_LABEL"
+	/>
+	<field
+		name="item_lock"
+		type="menuitem"
+		description="PLG_SYSTEM_SISITEMLOCK_ITEM_LOCK_FIELD_DESC"
+		label="PLG_SYSTEM_SISITEMLOCK_ITEM_LOCK_FIELD_FIELD"
+	/>
+	<field
+		name="item_return"
+		type="menuitem"
+		description="PLG_SYSTEM_SISITEMLOCK_ITEM_RETURN_FIELD_DESC"
+		label="PLG_SYSTEM_SISITEMLOCK_ITEM_RETURN_FIELD_FIELD"
+	/>
+</form>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+	<name>SIS ItemLock</name>
+	<creationDate>January 2023</creationDate>
+	<copyright>(C) 2023 Sergio Iglesias. All rights reserved.</copyright>
+	<author>Sergio Iglesias</author>
+	<authorEmail>info@sergioiglesias.net</authorEmail>
+	<authorUrl>https://sergioiglesias.net</authorUrl>
+	<license>GNU General Public License v2.0</license>
+	<version>1.0.0</version>
+	<description>PLG_SYSTEM_SISITEMLOCK_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="sisitemlock">sisitemlock.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_sisitemlock.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_sisitemlock.sys.ini</language>
+		<language tag="es-ES">es-ES/es-ES.plg_system_sisitemlock.ini</language>
+		<language tag="es-ES">es-ES/es-ES.plg_system_sisitemlock.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+				<field
+					name="items"
+					type="subform"
+					multiple="true"
+					formsource="plugins/system/sisitemlock/forms/items.xml"
+					label="PLG_SYSTEM_SISITEMLOCK_ITEMS_FIELD_FIELD"
+					description="PLG_SYSTEM_SISITEMLOCK_ITEMS_FIELD_DESC"
+				/>
+			</fieldset>
+
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" name="SIS ItemLock">https://sergiois.github.io/sis-itemlock.xml</server>
+	</updateservers>
+</extension>
